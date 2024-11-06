@@ -4,19 +4,23 @@ Data Engineering 1, Term Project 1
 This project looks into on 1 day of user activity during working hours from 9:00 to 18:00 focusing on building a portrait of an average user in that period and their hourly activity.
 
 The database includes four tables united by user id.
+
 `users` include:
 - user id
 - name
 - last name
 - age
 - subscription date (UNIX timestamp)
+  
 `friends` include:
 - user id 1
 - user id 2
+
 `posts` include:
 - user id
 - type of post
 - post date (UNIX timestamp)
+
 `reactions` include:
 - user id
 - type of reaction
